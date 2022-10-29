@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Map of Germany</title>
+
+    <style>
+        body {background-color: #222;}
+        #map {height: 45rem}
+        #info {position: absolute; top: 1rem; right: 1rem; background: #444; padding: 1rem; min-width: 10rem; color: #fff; line-height: 2rem; text-align: center;}
+    </style>
+</head>
+<body>
+    <img src="map-of-germany.svg" id="map">
+    <div id="info"></div>
+
+<script>
+
+function log(text) {
+    document.getElementById('info').innerHTML = text;
+}
+
+log('Test');
+
+</script>
+</body>
+</html>
